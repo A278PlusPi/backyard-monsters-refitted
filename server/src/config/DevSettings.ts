@@ -7,7 +7,7 @@ export const devConfig = {
   /*
    * Enable or disable the MapRoom on the server.
    */
-  maproom: false,
+  maproom: true,
 
   /*
    * Enable or disable Inferno on the server.
@@ -18,19 +18,19 @@ export const devConfig = {
    * Set the default amount of shiny on the user's account.
    * Must be set before creating creating a new record.
    */
-  shiny: 1500,
+  shiny: 278000,
 
   /*
    * Enable or disable the debug console. Requires a client restart.
    * A list of all available commands can be found in `ConsoleCommands.as`
    */
-  debugMode: false,
+  debugMode: true,
 
   /*
    * Inserts a sandbox test base into the database, with all buildings placed.
    * Must be set before creating creating a new record.
    */
-  devSandbox: false,
+  devSandbox: true,
 
   /*
    * Logs all missing assets and their paths to the server console.
