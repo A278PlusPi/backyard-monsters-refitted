@@ -6,10 +6,10 @@ import { worldIdToNumber } from "../../../utils/worldIdtoNumber";
  * @type {Object.<Tribe, number>}
  */
 const minimumTribeLevels = {
-  [Tribe.LEGIONNAIRE]: 25,
-  [Tribe.KOZU]: 29,
-  [Tribe.ABUNAKKI]: 25,
-  [Tribe.DREADNAUT]: 25,
+  [Tribe.LEGIONNAIRE]: 5,
+  [Tribe.KOZU]: 5,
+  [Tribe.ABUNAKKI]: 5,
+  [Tribe.DREADNAUT]: 5,
 };
 
 /**
