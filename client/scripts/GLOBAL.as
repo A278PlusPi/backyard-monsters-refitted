@@ -653,10 +653,10 @@ package
             "time":new SecNum(144000),
             "re":[[14,1,6],[8,1,1]]
          }];
-         _buildingProps[14].capacity = [200,260,320,380,450,540];
+         _buildingProps[14].capacity = [200,260,320,380,450,10000];
          _buildingProps[14].hp = [4000,14000,25000,43000,75000,130000];
          _buildingProps[14].repairTime = [100,200,300,400,500,600];
-         _buildingProps[21].capacity = [380,450,540,660,800];
+         _buildingProps[21].capacity = [380,450,540,660,3600];
          _buildingProps[4].costs = [{
             "r1":new SecNum(1000),
             "r2":new SecNum(1000),
